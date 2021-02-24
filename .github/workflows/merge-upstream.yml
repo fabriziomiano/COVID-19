@@ -1,7 +1,7 @@
 name: Merge CP master
 on:
   schedule:
-    - cron: '00/05 16,17 * * *'
+    - cron: '00/30 16,17 * * *'
 jobs:
   merge:
     runs-on: ubuntu-latest
